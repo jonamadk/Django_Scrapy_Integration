@@ -2,6 +2,11 @@
 This repo contains the integrated django and scrapy project.
 ---
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 156f124736eb28c6c3aaa0e3c1d6c34ad4eff921
 ### Requirements:
 
 To install requirements:
