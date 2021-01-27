@@ -6,12 +6,12 @@
 # https://doc.scrapy.org/en/latest/topics/items.html
 
 import scrapy
-from scrapy_djangoitem import DjangoItem
-from data.models import *
+
+
 
 
 class CrawlerItem(scrapy.Item):
    pass
-   # scrapy_obj = Data
+
    
 
