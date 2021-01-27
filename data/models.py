@@ -12,11 +12,11 @@ class LiveTradingData(models.Model):
     qty = models.FloatField(blank = True, null = True)
     change_percent_value = models.FloatField(blank = True, null = True)
 
-    # class Meta:
-    #     verbose_name= "Live Trading Data"
+    class Meta:
+        verbose_name= "Live Trading Data"
     
-    # def __str__(self):
-    #     return self.date_value
+    def __str__(self):
+        return self.company_name_symbol
 
 
 
