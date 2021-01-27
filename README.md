@@ -2,39 +2,6 @@
 This repo contains the integrated django and scrapy project.
 ---
 
-###  The folder structure of the  project is a as follows:
-  
-'''
-|   ──** data**
-│   ├── admin.py
-│   ├── apps.py
-│   ├── __init__.py
-│   ├── management
-│   │   └── commands
-│   │       └── scrape.py
-│   ├── migrations
-│   │   ├── __init__.py
-│   ├── models.py
-│   └── views.py
-├── db.sqlite3
-├── manage.py
-├── ** my_project **
-│   ├── asgi.py
-│   ├── **crawler**
-│   │   ├── __init__.py
-│   │   ├── items.py
-│   │   ├── middlewares.py
-│   │   ├── pipelines.py
-│   │   ├── settings.py
-│   │   └── spiders
-│   │       └── spider.py
-│   ├── __init__.py
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-├── README.md
-└── scrapy.cfg
-
 ### Requirements:
 
 To install requirements:
