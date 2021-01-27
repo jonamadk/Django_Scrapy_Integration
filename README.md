@@ -2,8 +2,9 @@
 This repo contains the integrated django and scrapy project.
 ---
 
-* The folder structure of the  project is a as follows:
+###  The folder structure of the  project is a as follows:
   
+'''
 |   ──** data**
 │   ├── admin.py
 │   ├── apps.py
